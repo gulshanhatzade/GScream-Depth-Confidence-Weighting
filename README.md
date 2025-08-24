@@ -37,12 +37,6 @@ All the results will be save in the ''outputs'' directory.
 
 This project is built upon [Scaffold-GS](https://city-super.github.io/scaffold-gs). The in-painted images are obtained by [SD-inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting) and [LaMa](https://github.com/advimman/lama). The depth maps are estimated by [Marigold](https://marigoldmonodepth.github.io/). The dataset we used is proposed by [SPIN-NeRF](https://spinnerf3d.github.io/). Kudos to these researchers. 
 
-## Citation
-
-```BibTeX
-@inproceedings{wang2024gscream,
-     title={GScream: Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal},
-     author={Wang, Yuxin and Wu, Qianyi and Zhang, Guofeng and Xu, Dan},
      booktitle={ECCV},
      year={2024}
      }
