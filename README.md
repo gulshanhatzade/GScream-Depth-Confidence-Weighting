@@ -23,9 +23,6 @@ cd ../simple-knn && pip install -e .
 cd ../..
 ```
 
-**Note for different GPU architectures**: 
-- For RTX 3090: Use default settings (compute_86, sm_86)
-- For Tesla V100: Modify to 'compute_70' and 'sm_70' in `submodules/diff-gaussian-rasterization/setup.py` before compiling
 
 ## Dataset
 
@@ -59,9 +56,6 @@ Configuration options can be modified in `configs/default.yaml`:
 3. Updated data loading for confidence maps
 4. Enhanced visualization of confidence-weighted depth
 
-## Results
-
-[Add your results/visualizations here]
 
 ## Acknowledgements
 
