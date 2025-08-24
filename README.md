@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/W-Ted/GScream.git
 
-cd GScream
+cd GScream Code
 conda env create -f gscream.yaml
 conda activate gscream
 
